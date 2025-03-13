@@ -129,7 +129,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True  # یا دقیقاً دامنه فلاتر شما اضافه شود.
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # اگر Flutter روی localhost اجرا می‌شود
-    "http://your-flutter-domain.com", 
-    "https://mohamadjavad.pythonanywhere.com/"
+    "http://localhost:3000",  # URL اپلیکیشن Flutter برای تست محلی
+    "http://127.0.0.1:8000",  # اگر از django runserver استفاده می‌کنید
+    "https://mohamadjavad.pythonanywhere.com",  # URL اصلی شما در PythonAnywhere
 ]
+CORS_ALLOW_ALL_ORIGINS = True
+
