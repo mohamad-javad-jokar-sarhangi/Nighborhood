@@ -129,5 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # اگر Flutter روی localhost اجرا می‌شود
-    "http://your-flutter-domain.com",  # دامنه‌ای که Flutter روی آن مستقر است
+    "http://your-flutter-domain.com", 
+    "https://mohamadjavad.pythonanywhere.com/"
 ]
